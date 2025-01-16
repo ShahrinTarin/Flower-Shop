@@ -386,6 +386,8 @@ body {
     height: 100%;
     margin: auto;
     background-image: url("./flower-asset/rectangle-4.png");
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
