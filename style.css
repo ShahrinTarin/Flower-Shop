@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Lato", serif;
     font-size: 16px;
 }
-.banner{
+
+.banner {
     background-color: #c74a6521;
     display: flex;
     align-items: center;
@@ -17,29 +20,34 @@ body{
     /* padding: 0 20px; */
     width: auto;
     height: auto;
-   
+
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
     height: 100%;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
-.banner-description{
+
+.banner-description {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
-.banner-description h1{
+
+.banner-description h1 {
     color: #272727;
     font-weight: 900;
     font-size: 5em;
 }
-.banner-description p{
+
+.banner-description p {
     font-size: 1.2em;
     line-height: 30px;
     color: rgba(39, 39, 39, 60%);
 }
-.banner-description .shop{
+
+.banner-description .shop {
     background-color: #E55473;
     padding: 20px 43px;
     border: none;
@@ -49,34 +57,39 @@ body{
     font-weight: 500;
     cursor: pointer;
 }
-.banner-description .shop:hover{
-background-color: #272727;
+
+.banner-description .shop:hover {
+    background-color: #272727;
 }
 
 /* made responsive for mobile */
-@media  screen and (max-width: 576px) {
-    .banner{
+@media screen and (max-width: 576px) {
+    .banner {
         flex-direction: column;
         padding: 20px 0px;
-    
+
         gap: 50px;
     }
-  .body{
-    font-size: 8px;
-  }
-  .banner-img{
-    text-align: center;
-  }
-  .banner-img img{
-    width: 80%;
-    height: 80%; 
-    margin-bottom: 0px;
-    padding-bottom: 0;
+
+    .body {
+        font-size: 8px;
+    }
+
+    .banner-img {
+        text-align: center;
+    }
+
+    .banner-img img {
+        width: 80%;
+        height: 80%;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+    }
 }
-}
+
 /* made responsive for tablet */
-@media  screen and (min-width: 576px) and (max-width: 992px){
-    .banner{
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .banner {
         flex-direction: column;
         padding: 20px;
         gap: 50px;
@@ -85,42 +98,48 @@ background-color: #272727;
 
 
 /* Feature section */
-.feature{
+.feature {
     display: flex;
     gap: 48px;
     flex-direction: column;
     margin: 120px auto;
     width: 70%;
-    
+
 }
-.feature-text{
+
+.feature-text {
     text-align: center;
 }
-.feature-pic{
+
+.feature-pic {
     display: flex;
     text-align: center;
     margin: auto;
     gap: 15px;
-    
+
 }
-.feature-pic a{
+
+.feature-pic a {
     color: black;
     font-weight: 600;
     font-size: 0.9em;
 }
-.feature h2{
+
+.feature h2 {
     font-size: 1.8em;
     font-weight: 900;
-     color: #272727;
-     margin-bottom: 24px;
+    color: #272727;
+    margin-bottom: 24px;
 }
-.feature p{
+
+.feature p {
     color: rgba(39, 39, 39, 60%);
     font-size: 1.1em;
     line-height: 20px;
 
-} 
-.flower{
+}
+
+.flower {
     height: 85%;
     width: 100%;
     border-radius: 300px 300px 0px 0px;
@@ -128,32 +147,37 @@ background-color: #272727;
 }
 
 
-.flower img{
-padding: 50px 50px 0px 50px;
-height: 100%;
-width: 20vw;
+.flower img {
+    padding: 50px 50px 0px 50px;
+    height: 100%;
+    width: 20vw;
 
 }
-.green{
-   background-color: rgba(5, 151, 160, 15%);
+
+.green {
+    background-color: rgba(5, 151, 160, 15%);
 }
-.yellow{
+
+.yellow {
     background-color: rgba(71, 125, 17, 15%);
 }
-.pink{
-    background-color: rgba(167,33 , 98, 15%);
+
+.pink {
+    background-color: rgba(167, 33, 98, 15%);
 }
 
-@media screen and (max-width: 576px){
-    .feature-pic{
+@media screen and (max-width: 576px) {
+    .feature-pic {
         flex-direction: column;
-    
+
     }
-    .flower{
+
+    .flower {
         width: 180px;
         height: 230px;
     }
-    .flower img{
+
+    .flower img {
         padding: 30px 30px 0 30px;
         height: 100%;
         width: 100%;
@@ -162,19 +186,22 @@ width: 20vw;
 
 
 
-@media screen and (min-width: 576px) and (max-width: 992px){
-    .feature h2{
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .feature h2 {
         line-height: 30px;
     }
-    .feature-pic{
+
+    .feature-pic {
         flex-direction: column;
     }
-    .flower{
+
+    .flower {
         width: 300px;
         height: 330px;
-    
+
     }
-    .flower img{
+
+    .flower img {
         padding: 50px 50px 0 50px;
         height: 100%;
         width: 100%;
@@ -183,7 +210,7 @@ width: 20vw;
 
 
 /* delivery section */
-.delivery{
+.delivery {
     background-color: #bee49d23;
     width: 63%;
     margin: auto;
@@ -196,21 +223,130 @@ width: 20vw;
     margin-bottom: 125px;
     text-align: center;
 }
-.delivery p{
+
+.delivery p {
     margin-top: 24px;
     font-size: 1.1em;
     font-weight: 600;
     line-height: 24px;
     color: rgba(39, 39, 39, 80%);
 }
-@media screen and (max-width: 576px){
-    .delivery{
+
+@media screen and (max-width: 576px) {
+    .delivery {
         flex-direction: column;
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px){
-    .delivery{
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .delivery {
         flex-direction: column;
     }
+}
+
+
+/* section deal  */
+
+.deal {
+    background-color: #e554730e;
+    display: flex;
+    gap: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    margin-bottom: 128px;
+}
+
+.deal-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.deal p {
+    font-size: 1em;
+    color: #27272788;
+
+}
+
+.deal h1 {
+    font-size: 2.2em;
+    font-weight: 900;
+}
+
+.deal h1 span {
+    color: #E55473;
+}
+
+.deal img {
+    height: 100%;
+    width: 100%;
+}
+
+.sign {
+    background-color: #E55473;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    color: #FFFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sign:hover {
+    background-color: #272727;
+}
+
+
+@media screen and (max-width: 576px) {
+    .deal {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .deal img {
+        height: 70%;
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .deal {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .deal img {
+        height: 90%;
+        width: 90%;
+    }
+}
+
+
+.instagram{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 48px;
+    margin-bottom: 125px;
+}
+.insta-pic{
+    display: flex;
+    gap: 24px;
+}
+.instagram h1{
+    font-weight: 900;
+    font-size: 2.1em;
+    color: #272727;
+    margin-bottom: 24px;
+}
+.instagram p{
+    color: rgba(39, 39, 39, 60%);
+    line-height: 30px;
+    
 }
