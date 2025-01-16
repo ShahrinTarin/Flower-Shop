@@ -79,7 +79,6 @@ background-color: #272727;
     .banner{
         flex-direction: column;
         padding: 20px;
-     
         gap: 50px;
     }
 }
@@ -148,6 +147,7 @@ width: 20vw;
 @media screen and (max-width: 576px){
     .feature-pic{
         flex-direction: column;
+    
     }
     .flower{
         width: 180px;
@@ -181,6 +181,8 @@ width: 20vw;
     }
 }
 
+
+/* delivery section */
 .delivery{
     background-color: #bee49d23;
     width: 63%;
