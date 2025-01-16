@@ -58,6 +58,7 @@ background-color: #272727;
     .banner{
         flex-direction: column;
         padding: 20px 0px;
+        width: calc((100%) - 20px);
         gap: 50px;
     }
   .body{
